@@ -10,7 +10,7 @@ const Navbar = () => {
         <a className={styles.title} href="/">
           Portfolio
         </a>
-        <div className={styles.menu} >
+        <div className={styles.menu}>
           <img
             className={styles.menuBtn}
             src={
@@ -21,16 +21,20 @@ const Navbar = () => {
             alt="menu icon"
             onClick={() => setMenuOpen(!menuOpen)}
           />
-          <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`} onClick={()=> setMenuOpen(false)}>
+          <ul
+            className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+            onClick={() => setMenuOpen(false)}
+          >
             <li>
-              <a href="#about">About</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
               <a href="#experience">Experience</a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#about">About</a>
             </li>
+
             <li>
               <a href="#contact">Contact</a>
             </li>
