@@ -11,16 +11,7 @@ const Navbar = () => {
           Portfolio
         </a>
         <div className={styles.menu}>
-          <img
-            className={styles.menuBtn}
-            src={
-              menuOpen
-                ? getImageUrl("nav/closeIcon.png")
-                : getImageUrl("nav/menuIcon.png")
-            }
-            alt="menu icon"
-            onClick={() => setMenuOpen(!menuOpen)}
-          />
+          
           <ul
             className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
             onClick={() => setMenuOpen(false)}
@@ -40,6 +31,16 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
+        <img
+            className={styles.menuBtn}
+            src={
+              menuOpen
+                ? getImageUrl("nav/closeIcon.png")
+                : getImageUrl("nav/menuIcon.png")
+            }
+            alt="menu icon"
+            onClick={() => setMenuOpen(!menuOpen)}
+          />
       </nav>
     </>
   );

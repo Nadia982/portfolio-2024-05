@@ -94,7 +94,12 @@
   }
 
   .menuOpen {
+    position: absolute;
+    right: 0;
+    top: 100px;
     display: flex;
     z-index: 1;
+    width: 50vw;
+    text-align: right;
   }
 }
