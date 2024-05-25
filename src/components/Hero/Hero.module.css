@@ -20,9 +20,9 @@
 }
 
 .title {
-  font-size: 72px;
+  font-size: 68px;
   font-weight: 900;
-  margin-bottom: 33px;
+  margin-bottom: 24px;
   font-family: var(--font-roboto);
   /* background: linear-gradient(
     90deg,

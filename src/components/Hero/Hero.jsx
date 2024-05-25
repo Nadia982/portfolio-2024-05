@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Natalie</h1>
         <p className={styles.description}>
-          I'm a UK-based web developer with 2 years of experience using React, JavaScript and Python. I also tutor Computer Science at GCSE. Contact me if you'd like to learn more!
+          I'm a UK-based web developer with 2 years of experience using React, JavaScript and Python. I also provide remote Computer Science tuitions to GCSE students. Drop me an email if you'd like to get in touch!
         </p>
         <a href="#" className={styles.contactBtn}>
         {/* <a href="mailto:myemail@email.com" className={styles.contactBtn}> */}
