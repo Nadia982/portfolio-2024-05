@@ -9,7 +9,7 @@ export const Hero = () => {
         <h1 className={styles.title}>Hi, I'm Natalie</h1>
         <p className={styles.description}>
           I'm a UK-based web developer with 2 years of experience using React,
-          JavaScript and Python. I also provide remote Computer Science tuitions
+          JavaScript and Python. I also provide online Computer Science and Maths tuitions
           to GCSE students.
         </p>
         <p className={styles.description}>
@@ -21,11 +21,11 @@ export const Hero = () => {
           Contact Me
         </a>
       </div>
-      <img
+      {/* <img
         src={getImageUrl("hero/heroImage.png")}
         alt="Hero image of me"
         className={styles.heroImg}
-      />
+      /> */}
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

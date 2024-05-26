@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 25px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -22,7 +22,7 @@
 .title {
   font-size: 68px;
   font-weight: 900;
-  /* margin-bottom: 24px; */
+  margin-bottom: 25px;
   font-family: var(--font-roboto);
   /* background: linear-gradient(
     90deg,
@@ -34,9 +34,10 @@
 }
 
 .description {
-  font-size: 30px;
+  font-size: 1.8rem;
   font-family: var(--font-roboto);
   margin-bottom: 18px;
+  text-align: center;
 }
 
 .contactBtn {
