@@ -22,7 +22,7 @@
 .title {
   font-size: 68px;
   font-weight: 900;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
   font-family: var(--font-roboto);
   /* background: linear-gradient(
     90deg,
@@ -36,7 +36,7 @@
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  margin-bottom: 18px;
 }
 
 .contactBtn {
@@ -52,6 +52,7 @@
 }
 
 .heroImg {
+  margin-bottom: 140px;
   width: 30%;
   z-index: 1;
   animation-name: floating;
