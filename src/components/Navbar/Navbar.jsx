@@ -7,8 +7,9 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <a className={styles.title} href="/">
-          Portfolio
+      <a href="#" className={styles.contactBtn}>
+          {/* <a href="mailto:myemail@email.com" className={styles.contactBtn}> */}
+          Contact Me
         </a>
         <div className={styles.menu}>
           

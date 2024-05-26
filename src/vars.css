@@ -6,6 +6,7 @@
     --color-tertiary: rgb(20,55,109);
     --color-dark: hsl(215, 73%, 16%);
     --color-bg: #04152d;
+    --color-emphasis: #d891ef;
 
     /* Fonts */
     --font-roboto: "Roboto"; 

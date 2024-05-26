@@ -10,15 +10,23 @@
   margin: 0 10%;
 }
 
-.title {
+.contactBtn {
+  background-color: var(--color-emphasis);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 0 14px 0 var(--color-emphasis);
+  color: var(--color-bg);
   font-size: 1.8rem;
+  font-family: var(--font-roboto);
   font-weight: 600;
+  padding: 8px 16px;
   text-decoration: none;
-  color: var(--color-text);
+  text-align: center;
+  min-width: 200px;
 }
 
 .menuBtn {
-    display: none;
+  display: none;
 }
 
 .menu {
@@ -38,8 +46,8 @@
 }
 
 .menuItems a:hover {
-    background: var(--color-primary);
-  }
+  background: var(--color-primary);
+}
 
 @media screen and (max-width: 830px) {
   .navbar {
