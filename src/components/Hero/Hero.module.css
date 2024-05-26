@@ -20,7 +20,7 @@
 }
 
 .title {
-  font-size: 68px;
+  font-size: 60px;
   font-weight: 900;
   margin-bottom: 25px;
   font-family: var(--font-roboto);
@@ -35,9 +35,30 @@
 
 .description {
   font-size: 1.8rem;
+  line-height: 2.7rem;
   font-family: var(--font-roboto);
   margin-bottom: 18px;
-  text-align: center;
+}
+
+.emphasis {
+position: relative;
+  /* text-decoration: underline wavy #d891ef;
+  /* text-decoration: underline wavy #EB6534; */
+  /* text-decoration: underline wavy #BA2C73; */
+  /* text-decoration-thickness: 3px; */
+  /* text-underline-offset: 3px; */
+  /* text-underline-position: under; */
+}
+
+.emphasis:after{
+  content: "";
+  position: absolute;
+  width: 100%;
+border-top: 3px solid #d891ef;
+left: 0;
+bottom: -10px;
+border-radius: 50%;
+height: 8px;
 }
 
 .contactBtn {
@@ -111,8 +132,7 @@
     align-items: center;
   }
 
-  .heroImg {
-    margin-bottom: 40px;
-    
+  .description {
+text-align: center;
   }
 }

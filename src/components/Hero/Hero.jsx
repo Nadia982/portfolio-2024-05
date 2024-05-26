@@ -8,12 +8,12 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Natalie</h1>
         <p className={styles.description}>
-          I'm a UK-based web developer with 2 years of experience using React,
-          JavaScript and Python. I also provide online Computer Science and Maths tuitions
-          to GCSE students.
+          I'm a <span className={styles.emphasis}>UK-based</span> web developer with <span className={styles.emphasis}>2&nbsp;years</span> of experience using <span className={styles.emphasis}>React,</span>
+          <span className={styles.emphasis}>JavaScript</span> and <span className={styles.emphasis}>Python</span>. I also provide online Computer&nbsp;Science and Maths tuitions
+          to GCSE&nbsp;students.
         </p>
         <p className={styles.description}>
-          Drop me an email or send me a message on LinkedIn if you'd like to get
+          Drop me an email or a LinkedIn message if you'd like to get
           in touch!
         </p>
         <a href="#" className={styles.contactBtn}>
