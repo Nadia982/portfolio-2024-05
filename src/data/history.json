@@ -1,0 +1,15 @@
+[
+    {"role": "Computer Science and Python Tutor", 
+    "startDate": "November 2023",
+    "endDate": "present",
+    "experiences": "Taught Python, SQL and Computer Science fundamentals to a GCSE Computer Science student."
+    },
+    {"role": "Senior Paralegal at NSC Global Ltd", 
+    "startDate": "October 2012",
+    "endDate": "present",
+    "experiences": ["Acted as a trusted adviser to the business - a fast-paced IT services company.", 
+    "Helped the business to expand into 24 new countries across five continents", 
+    "Assisted the business with all legal and compliance aspects of running a company in 30+ countries"]
+    }
+
+]
