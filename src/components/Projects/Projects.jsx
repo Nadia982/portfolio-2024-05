@@ -69,7 +69,7 @@ const Projects = () => {
 
         <div>
           {projects?.slice(0, nextItems)?.map((project, index) => (
-            <div>
+            <div id={index}>
               {/* <div onClick = {()=>showModalHandler(project.id)}
               key={index}
               // data-aos="fade-zoom-in"
