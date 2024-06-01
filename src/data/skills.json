@@ -10,5 +10,9 @@
 {
     "title": "React", 
     "imageSrc": "skills/react.png"
+}, 
+{
+    "title": "Python",
+    "imageSrc": "skills/python.png"
 }
 ]
