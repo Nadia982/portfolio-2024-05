@@ -10,4 +10,11 @@
 
     /* Fonts */
     --font-roboto: "Roboto"; 
+
+    /* Font sizes */
+    --font-xxl: 4rem;
+    --font-xl: 2.5rem; 
+    --font-l: 1.8rem;
+    --font-m: 1.5rem;
+    --font-s: 1.2rem;
 }

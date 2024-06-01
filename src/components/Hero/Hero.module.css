@@ -20,7 +20,7 @@
 }
 
 .title {
-  font-size: 60px;
+  font-size: var(--font-xxl);
   font-weight: 900;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -35,7 +35,7 @@
 }
 
 .description {
-  font-size: 1.8rem;
+  font-size: var(--font-l);
   line-height: 2.7rem;
   font-family: var(--font-roboto);
   margin-bottom: 18px;
@@ -67,7 +67,7 @@ height: 8px;
   background-color: var(--color-primary);
   color: var(--color-text);
   border-radius: 100px;
-  font-size: 30px;
+  font-size: var(--font-l);
   font-weight: 600;
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
