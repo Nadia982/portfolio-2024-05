@@ -1,13 +1,27 @@
 @import "../../vars.css";
 
-* {
-    color: #fff;
-}
-
-.title, .description, .technologies {
-    color: #fff;
-}
-
 .container {
-    color: #fff;
+    color: var(--color-text);
+    margin-top: 76px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: var(--font-roboto);
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--font-xl);
+    letter-spacing: 1.75px;
+    
+}
+
+.projects {
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
 }
