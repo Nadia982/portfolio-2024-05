@@ -1,5 +1,13 @@
 @import "../../vars.css";
 
+* {
+    color: #fff;
+}
+
 .title, .description, .technologies {
+    color: #fff;
+}
+
+.container {
     color: #fff;
 }
