@@ -20,10 +20,9 @@ export const About = () => {
               <p className={styles.aboutItemPara}>
                 I have worked in the tech industry for the past 12 years, most
                 recently as a Senior Paralegal at a global IT services company
-                headquartered in London, where I work with a global remotely
-                distributed team, and have helped the business to expand its
-                operations into 24 new countries spread across five continents.
+                headquartered in London.
               </p>
+              
               <p className={styles.aboutItemPara}>
                 In 2021, I taught myself to code, and since then, I have used my
                 coding skills to build applications that benefit the students I

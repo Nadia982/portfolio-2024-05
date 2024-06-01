@@ -112,3 +112,23 @@
 .historyItemDetails li {
     margin-top: 6px;
 }
+
+@media screen and (max-width: 830px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+
+    }
+
+    .skills{
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .history {
+        width: 100%;
+        gap: 25px;
+    }
+}
