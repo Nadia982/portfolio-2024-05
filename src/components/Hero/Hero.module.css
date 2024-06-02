@@ -38,6 +38,10 @@
   font-size: var(--font-l);
   line-height: 2.7rem;
   font-family: var(--font-roboto);
+  
+}
+
+.description:first-of-type {
   margin-bottom: 18px;
 }
 
@@ -87,7 +91,7 @@ height: 8px;
   margin-bottom: 80px;
 }
 
-.heroImg {
+/* .heroImg {
   margin-bottom: 140px;
   width: 30%;
   z-index: 1;
@@ -107,7 +111,7 @@ height: 8px;
   100% {
     transform: translate(0, -0px);
   }
-}
+} */
 
 .topBlur::before{
   width: 50vw;

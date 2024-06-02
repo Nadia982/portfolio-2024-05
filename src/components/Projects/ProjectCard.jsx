@@ -7,13 +7,16 @@ export const ProjectCard = ({
 }) => {
   return (
         <div className={styles.container}>
-          
-      <img src={getImageUrl(imgUrl)} alt={alt} className={styles.image}/>
+          <div className={styles.heading}>
+      <h3 className={styles.title}>{title}</h3>    
       <div className={styles.links}>
         <a href={siteUrl} className={styles.link}>Live</a>
         <a href={gitHub} className={styles.link}>Code</a>
       </div>
-      <h3 className={styles.title}>{title}</h3>
+      </div>
+      <img src={getImageUrl(imgUrl)} alt={alt} className={styles.image}/>
+
+      
       
       <ul className={styles.skills}>
         {skills.map((skill, id) => <li className={styles.skill} key={id}>{skill}</li>

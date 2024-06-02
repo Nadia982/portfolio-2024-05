@@ -2,7 +2,7 @@
 {
 "id":"01",
 "category": ["javascript", "react"],
-"title": "Grammar Quiz for Year 6 Kids",
+"title": "Grammar Quiz",
 "imgUrl": "projects/portfolioImg1.jpg",
 "description": "I created this project to fulfil a need for my child to practice answering grammar-related questions before his SATS (UK school standard assessment tests for 10-11 year-olds). Multiple choice answers and animations that give immediate feedback on responses make this quiz easy and compelling to use. ",
 "skills": ["JavaScript", "HTML"],
