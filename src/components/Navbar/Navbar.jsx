@@ -33,7 +33,7 @@ const Navbar = () => {
           </ul>
         </div>
         <img
-          tabindex="0"
+          tabIndex="0"
             className={styles.menuBtn}
             src={
               menuOpen
@@ -44,8 +44,10 @@ const Navbar = () => {
             onClick={() => setMenuOpen(!menuOpen)}
             // onKeyDown={() => setMenuOpen(!menuOpen)}
             onKeyDown={(e) => ( 
-              e.key === "Enter" ? setMenuOpen(!menuOpen) : null
+              e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
+              e.key === "Escape" ? setMenuOpen(false) : null
             )}
+            
           />
       </nav>
     </>

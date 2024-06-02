@@ -1,0 +1,73 @@
+@import "../../vars.css";
+
+.container {
+    display: inline-flex;
+    align-items: stretch;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 18px 24px;
+    max-width: 345px;
+    flex-grow: 1;
+    }
+
+.image {
+    
+    height: 200px;
+    object-fit: cover;
+}
+
+.title {
+    font-size: var(--font-l);
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 6px;
+    font-size: var(--font-m);
+    font-weight: 400;
+}
+
+.skills {
+    width: 100%;
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    list-style: none;
+
+}
+
+.skill {
+    font-size: var(--font-s);
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    padding: 5px 10px;
+}
+
+.links {
+    width: 100%;
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 26px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: var(--font-m);
+    border-radius: 10px;
+    
+    background-color: var(--color-dark);
+    padding: 6px 12px;
+    width: 40%;
+    text-align: center;
+}
+
+.link:hover {
+filter: brightness(1.3);
+}

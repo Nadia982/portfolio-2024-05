@@ -2,7 +2,7 @@
 
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
+  /* background-color: rgba(12, 12, 12, 0.6); */
   border-radius: 16px;
   padding: 72px;
   margin-top: 130px;
@@ -44,13 +44,9 @@
   background: linear-gradient(90deg, #19376d 0%, #11264c 100%);
     background-repeat: no-repeat;
     transition: 0.4s;
-    max-width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
-
-/* .aboutItem:hover{
-    background-size: 100% 100%;
-} */
 
 .aboutItem h3 {
     font-size: var(--font-xl);
