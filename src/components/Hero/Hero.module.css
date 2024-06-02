@@ -41,7 +41,7 @@
   margin-bottom: 18px;
 }
 
-.emphasis {
+.emphasis, .emphasisLink {
 position: relative;
   /* text-decoration: underline wavy #d891ef;
   /* text-decoration: underline wavy #EB6534; */
@@ -51,7 +51,7 @@ position: relative;
   /* text-underline-position: under; */
 }
 
-.emphasis:after{
+.emphasis:after, .emphasisLink:after{
   content: "";
   position: absolute;
   width: 100%;
@@ -60,6 +60,19 @@ left: 0;
 bottom: -10px;
 border-radius: 50%;
 height: 8px;
+}
+
+.emphasisLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.emphasisLink:visited {
+  color: #edd1f7;
+}
+
+.emphasisLink:hover {
+  color: #d891ef;
 }
 
 .contactBtn {
