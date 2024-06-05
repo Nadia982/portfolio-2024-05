@@ -3,7 +3,7 @@
 "id":"01",
 "title": "Grammar Quiz",
 "imgUrl": "projects/portfolioImg1.jpg",
-"description": "I created this project to fulfil a need for my child to practice answering grammar-related questions before his SATS (UK school standard assessment tests for 10-11 year-olds). Multiple choice answers and animations that give immediate feedback on responses make this quiz easy and compelling to use. ",
+"description": "I created this project to fulfil a need for my child to practise answering grammar-related questions before his SATS (UK school standard assessment tests for 10-11 year-olds). Multiple choice answers and animations that give immediate feedback on responses make this quiz easy and compelling to use. ",
 "skills": ["JavaScript", "CSS", "TypeScript"],
 "siteUrl": "",
 "gitHub": "",
