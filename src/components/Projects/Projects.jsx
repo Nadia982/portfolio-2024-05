@@ -51,35 +51,23 @@ export const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
       <h2 className={styles.title}>Projects</h2>
-      {/* <div> */}
-
-      <button onClick={() => setSelectTab("all")}>All</button>
+    
+<div className={styles.buttonContainer}>
+<p className={styles.filterBySkill}>Filter projects by skill:</p>
+      {/* <button className={`${styles.filterButton} ${selectTab && styles.selected}`} onClick={() => setSelectTab("all")}>All</button> */}
+      <button className={`${styles.filterButton}`} onClick={() => setSelectTab("all")}>All</button>
 
       {technologies.map((technology, id) => (
-      <button key={id}onClick={() => setSelectTab(technology)}>
+      <button className={styles.filterButton} key={id} onClick={() => setSelectTab(technology)}>
          {technology}
         </button>
       ))}
-
-      {/* <button onClick={()=>setSelectTab("javascript")} >
-              JavaScript
-            </button>
-
-            <button onClick={()=>setSelectTab("react")} >
-              React
-            </button>
-
-            <button onClick={()=>setSelectTab("typescript")}>
-              TypeScript
-            </button>
-          </div> */}
-
+</div>
+      
       <div className={styles.projects}>
-        {/* <div className="inner-wrapper"> */}
         {projects.map((project, id) => {
           return <ProjectCard key={id} project={project} />;
         })}
-        {/* </div> */}
       </div>
     </section>
   );

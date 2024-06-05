@@ -2,11 +2,10 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 56px;
+    margin-top: 12px;
     margin-left: 10%;
     margin-right: 10%;
     font-family: var(--font-roboto);
-
 }
 
 .title {
@@ -15,10 +14,15 @@
     font-size: var(--font-xl);
     letter-spacing: 1.75px;
     padding: 1px;
+    margin-bottom: 12px;
+}
+
+.filterBySkill{
+    text-align: center;
 }
 
 .projects {
-    margin-top: 36px;
+    margin-top: 24px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -28,8 +32,28 @@
     width: 100%;
 }
 
-/* .inner-wrapper{
+.buttonContainer {
     display: flex;
-    flex-direction: row;
-    width: 33.33%;
-} */
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+
+.filterButton{
+    border: none;
+    font-size: var(--font-xs);
+padding: 6px 18px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.filterButton:hover{
+    background-color: var(--color-emphasis);
+}
+
+.selected {
+    /* background-color: cyan; */
+    background-color: var(--color-emphasis);
+}
