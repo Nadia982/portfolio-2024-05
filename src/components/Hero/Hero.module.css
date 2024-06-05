@@ -28,40 +28,14 @@ background-color: #0397f5; */
 .title {
   font-weight: 900;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   font-family: var(--font-roboto);
-  /* background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 70%,
-    rgba(255, 255, 255, 0) 120%
-  );
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text; */
   font-size: var(--font-xxl);
-/* background-image: linear-gradient (135deg, #fff 50%, transparent 50%); 
-background-size: 200% 100%;
--webkit-text-stroke-color: #fff;
--webkit-text-stroke-width: 0.1px;
--webkit-text-fill-color: transparent;
--webkit-background-clip: text; */
-/* font-family: oswald; */
-/* text-transform: uppercase; */
-/* animation: fill 2s ease-in-out; */
 }
 
-@keyframes fill {
-  0% {
-  background-position: 100% 0;
-  }
-  
-  100% {
-  background-position: 0 -100%;
-  }
-}  
-
 .description {
-  font-size: var(--font-l);
-  line-height: 2.7rem;
+  font-size: var(--font-m);
+  line-height: 2.5rem;
   font-family: var(--font-roboto);
   
 }
