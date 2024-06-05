@@ -1,11 +1,10 @@
 [
 {
 "id":"01",
-"category": ["javascript", "react"],
 "title": "Grammar Quiz",
 "imgUrl": "projects/portfolioImg1.jpg",
 "description": "I created this project to fulfil a need for my child to practice answering grammar-related questions before his SATS (UK school standard assessment tests for 10-11 year-olds). Multiple choice answers and animations that give immediate feedback on responses make this quiz easy and compelling to use. ",
-"skills": ["JavaScript", "HTML"],
+"skills": ["JavaScript", "CSS", "TypeScript"],
 "siteUrl": "",
 "gitHub": "",
 "alt": "A screenshot of project 1: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
@@ -13,7 +12,6 @@
 
 {
 "id":"02",
-"category": ["javascript"],
 "title": "Spelling Game",
 "imgUrl": "projects/portfolioImg2.jpg",
 "description": "Description goes here",
@@ -24,11 +22,10 @@
 },
 {
 "id":"03",
-"category": "javascript",
 "title": "Landing page for travel website",
 "imgUrl": "projects/portfolioImg3.jpg",
 "description": "Description goes here",
-"skills": ["React", "Tailwind"],
+"skills": ["React"],
 "siteUrl": "",
 "gitHub": "",
 "alt": "A screenshot of project 1: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."

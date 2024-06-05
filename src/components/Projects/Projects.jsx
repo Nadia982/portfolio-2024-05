@@ -1,18 +1,83 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./Projects.module.css";
-import projects from "../../data/projects.json";
+import data from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
-
 export const Projects = () => {
-  return (
+  const [projects, setProjects] = useState(data);
+  const [selectTab, setSelectTab] = useState("all");
 
-    <section className={styles.container}>
-            <h2 className={styles.title}>Projects</h2>
+  const technologies = [
+    "CSS",
+    "JavaScript",
+    "React",
+    "TypeScript",
+  ];
+
+  useEffect(() => {
+    if (selectTab === "all") {
+      setProjects(data);
+    }
+
+    if (selectTab === "CSS") {
+      const filteredData = data.filter((item) =>
+        item.skills.includes("CSS")
+      );
+      setProjects(filteredData);
+    }
+
+    if (selectTab === "JavaScript") {
+      const filteredData = data.filter((item) =>
+        item.skills.includes("JavaScript")
+      );
+      setProjects(filteredData);
+    }
+
+    if (selectTab === "React") {
+      const filteredData = data.filter((item) => item.skills.includes("React"));
+      setProjects(filteredData);
+    }
+
+    if (selectTab === "TypeScript") {
+      const filteredData = data.filter((item) =>
+        item.skills.includes("TypeScript")
+      );
+      setProjects(filteredData);
+    }
+  }, [selectTab]);
+
+
+
+  return (
+    <section id="projects" className={styles.container}>
+      <h2 className={styles.title}>Projects</h2>
+      {/* <div> */}
+
+      <button onClick={() => setSelectTab("all")}>All</button>
+
+      {technologies.map((technology, id) => (
+      <button key={id}onClick={() => setSelectTab(technology)}>
+         {technology}
+        </button>
+      ))}
+
+      {/* <button onClick={()=>setSelectTab("javascript")} >
+              JavaScript
+            </button>
+
+            <button onClick={()=>setSelectTab("react")} >
+              React
+            </button>
+
+            <button onClick={()=>setSelectTab("typescript")}>
+              TypeScript
+            </button>
+          </div> */}
+
       <div className={styles.projects}>
         {/* <div className="inner-wrapper"> */}
         {projects.map((project, id) => {
-          return <ProjectCard key={id} project={project}/>;
+          return <ProjectCard key={id} project={project} />;
         })}
         {/* </div> */}
       </div>
