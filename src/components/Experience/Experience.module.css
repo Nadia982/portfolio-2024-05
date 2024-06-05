@@ -65,7 +65,6 @@
 
 .skill p {
     font-size: var(--font-m);
-    font-family: var(--font-roboto);
     font-weight: 500;
 }
 
@@ -86,11 +85,6 @@
     background: linear-gradient(90deg, #19376d 0%, #11264c 100%);
     border-radius: 10px;
     padding: 24px 24px 24px 36px;
-}
-
-.historyItemDetails {
-    font-family: var(--font-roboto);
-
 }
 
 .historyItemDetails h3 {

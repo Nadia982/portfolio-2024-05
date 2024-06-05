@@ -29,15 +29,13 @@ background-color: #0397f5; */
   font-weight: 900;
   margin-top: 25px;
   margin-bottom: 20px;
-  font-family: var(--font-roboto);
-  font-size: var(--font-xxl);
+    font-size: var(--font-xxl);
 }
 
 .description {
   font-size: var(--font-m);
   line-height: 2.5rem;
-  font-family: var(--font-roboto);
-  
+ 
 }
 
 .description:first-of-type {
