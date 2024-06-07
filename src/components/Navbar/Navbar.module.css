@@ -14,7 +14,7 @@
   background-color: var(--color-emphasis);
   border: none;
   border-radius: 50px;
-  box-shadow: 0 0 14px 0 var(--color-emphasis);
+  box-shadow: 0 0 7px 0 var(--color-emphasis);
   color: var(--color-bg);
   font-size: var(--font-l);
   font-weight: 600;
@@ -22,6 +22,12 @@
   text-decoration: none;
   text-align: center;
   min-width: 200px;
+}
+
+.contactBtn:focus{
+  border: none;
+  box-shadow: 0 0 21px 0 var(--color-emphasis);
+  outline: 2px solid var(--color-emphasis);
 }
 
 .menuBtn {
