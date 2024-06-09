@@ -9,8 +9,10 @@
 
 .content {
   display: flex;
-  /* justify-content: space-evenly; */
-  width: 100vw;
+  justify-content: space-between;
+  border: 1px solid cyan;
+  width: 80%;
+  margin: 0 auto;
   padding: 0;
   gap: 20px;
 }
@@ -19,12 +21,13 @@
   font-size: var(--font-xl);
   font-weight: 700;
   letter-spacing: 4px;
-  margin-bottom: 12px;
+  width: 80%;
+  margin: 0 auto 24px;
 }
 
 .text {
   margin-top: 6px;
-  flex: 1 1 25%;
+  flex: 1 1 35%;
   display: flex;
   gap: 12px;
   flex-direction: column;
@@ -37,7 +40,7 @@
 }
 
 .links {
-  flex: 1 0 65%;
+  flex: 1 0 50%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -55,6 +58,15 @@
   text-decoration: none;
   font-size: var(--font-xs);
   font-weight: 400;
+}
+
+.link a:focus{
+ /* border: 1px solid transparent; */
+ outline: 2px solid white;  
+}
+.link a:hover{
+    filter: brightness(.9);
+    box-shadow: 0 0 7px 0 #fff;
 }
 
 @media screen and (max-width: 830px) {
