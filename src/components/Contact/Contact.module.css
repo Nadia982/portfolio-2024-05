@@ -10,7 +10,6 @@
 .content {
   display: flex;
   justify-content: space-between;
-  border: 1px solid cyan;
   width: 80%;
   margin: 0 auto;
   padding: 0;

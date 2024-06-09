@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-      <a href="#" className={styles.contactBtn}>
+        <a className={styles.contactBtn} href="https://www.linkedin.com/in/natalie-g-b947331a/">
           {/* <a href="mailto:myemail@email.com" className={styles.contactBtn}> */}
           Contact Me
         </a>
