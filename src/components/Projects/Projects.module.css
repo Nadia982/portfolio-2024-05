@@ -41,16 +41,26 @@
 }
 
 .filterButton{
+    background-color: #d9d9ff;
     border: none;
     font-size: var(--font-xs);
 padding: 6px 18px;
 border-radius: 10px;
 cursor: pointer;
-box-shadow: 0 0 7px 0 #fff;
+box-shadow: 0 0 6px 0 #d9d9ff;
+border: 2px solid transparent;
+}
+
+.filterButton:focus{
+    border: 2px solid var(--color-bg);
+    box-shadow: none;
+  outline: 2px solid var(--color-text);
 }
 
 .filterButton:hover{
-    background-color: var(--color-emphasis);
+    background-color: var(--color-text);
+    filter: brightness(1.4);
+    box-shadow: 0 0 12px 0 #fff;
 }
 
 .selected {
