@@ -27,8 +27,6 @@
 .contactBtn:focus{
   border: 2px solid var(--color-bg);
   box-shadow: none;
-  /* box-shadow: 0 0 21px 0 var(--color-emphasis); */
-  /* outline: 2px solid var(--color-emphasis); */
 outline: 2px solid var(--color-emphasis);
 }
 
@@ -45,7 +43,7 @@ filter: brightness(1.2);
 }
 .menuItems {
   display: flex;
-  /* gap: 45px; */
+  gap: 6px;
   list-style: none;
 }
 
@@ -53,7 +51,7 @@ filter: brightness(1.2);
   font-size: var(--font-m);
   color: var(--color-text);
   text-decoration: none;
-  padding: 12px;
+  padding: 8px;
 }
 
 .menuItems a:hover {
