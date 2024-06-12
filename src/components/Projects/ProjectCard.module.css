@@ -57,8 +57,8 @@
 }
 
 .links {
-    /* width: 100%; */
     margin-top: 12px;
+    margin-left: 6px;
     display: flex;
     gap: 6px;
     justify-content: space-around;
@@ -66,15 +66,14 @@
 }
 
 .link {
-    min-width: 70px;
+    min-width: 60px;
     text-decoration: none;
     color: var(--color-text);
-    font-size: var(--font-s);
+    font-size: var(--font-xs);
     border-radius: 10px;
-    
     background-color: var(--color-dark);
-    padding: 6px 12px;
-    width: 40%;
+    padding: 6px;
+    /* width: 10%; */
     text-align: center;
 }
 
