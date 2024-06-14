@@ -9,9 +9,10 @@ export const Projects = () => {
 
   const technologies = [
     "CSS",
-    "JavaScript",
+    "JavaScript/ES6",
     "React",
-    "TypeScript",
+    // "TypeScript",
+    "Styled components"
   ];
 
   useEffect(() => {
@@ -26,9 +27,9 @@ export const Projects = () => {
       setProjects(filteredData);
     }
 
-    if (selectTab === "JavaScript") {
+    if (selectTab === "JavaScript/ES6") {
       const filteredData = data.filter((item) =>
-        item.skills.includes("JavaScript")
+        item.skills.includes("JavaScript/ES6")
       );
       setProjects(filteredData);
     }
@@ -38,12 +39,17 @@ export const Projects = () => {
       setProjects(filteredData);
     }
 
-    if (selectTab === "TypeScript") {
-      const filteredData = data.filter((item) =>
-        item.skills.includes("TypeScript")
-      );
+    if (selectTab === "Styled components") {
+      const filteredData = data.filter((item) => item.skills.includes("Styled components"));
       setProjects(filteredData);
     }
+
+    // if (selectTab === "TypeScript") {
+    //   const filteredData = data.filter((item) =>
+    //     item.skills.includes("TypeScript")
+    //   );
+    //   setProjects(filteredData);
+    // }
   }, [selectTab]);
 
 
