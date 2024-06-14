@@ -4,7 +4,7 @@
 "title": "Grammar Quiz",
 "imgUrl": "projects/portfolioImg1.jpg",
 "description": "I created this project to fulfil a need for my child to practise answering grammar-related questions before his SATS (UK school standard assessment tests for 10-11 year-olds). Multiple choice answers and animations that give immediate feedback on responses make this quiz easy and compelling to use. ",
-"skills": ["JavaScript", "CSS", "TypeScript"],
+"skills": ["JavaScript", "CSS"],
 "siteUrl": "https://nadia982.github.io/sats-spag-quiz/",
 "gitHub": "https://github.com/Nadia982/sats-spag-quiz",
 "alt": "A screenshot of project 1: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
@@ -24,10 +24,10 @@
 "id":"03",
 "title": "Travel landing page",
 "imgUrl": "projects/portfolioImg3.jpg",
-"description": "Description goes here",
-"skills": ["React"],
-"siteUrl": "",
-"gitHub": "",
+"description": "A concept landing page for a fictional luxury travel company created using React and styled components.",
+"skills": ["React", "Styled components"],
+"siteUrl": "https://nadia982.github.io/dream-travel/",
+"gitHub": "https://github.com/Nadia982/dream-travel",
 "alt": "A screenshot of project 1: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
 }
 ]
