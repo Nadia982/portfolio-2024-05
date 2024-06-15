@@ -12,7 +12,9 @@ export const Projects = () => {
     "JavaScript/ES6",
     "React",
     // "TypeScript",
-    "Styled components"
+    "Styled components", 
+    "Business websites",
+    "Educational websites"
   ];
 
   useEffect(() => {
@@ -59,7 +61,7 @@ export const Projects = () => {
       <h2 className={styles.title}>Projects</h2>
     
 <div className={styles.buttonContainer}>
-<p className={styles.filterBySkill}>Filter projects<br/> by skill:</p>
+<p className={styles.filterBySkill}>Filter projects<br/> by skill/type:</p>
       {/* <button className={`${styles.filterButton} ${selectTab && styles.selected}`} onClick={() => setSelectTab("all")}>All</button> */}
       <button className={`${styles.filterButton}`} onClick={() => setSelectTab("all")}>All</button>
 
