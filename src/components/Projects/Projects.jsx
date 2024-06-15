@@ -8,12 +8,11 @@ export const Projects = () => {
   const [selectTab, setSelectTab] = useState("all");
 
   const technologies = [
-    "CSS",
     "JavaScript/ES6",
     "React",
-    // "TypeScript",
+    "APIs",
     "Styled components", 
-    "Business websites",
+    "Small business websites",
     "Educational websites"
   ];
 
@@ -21,37 +20,14 @@ export const Projects = () => {
     if (selectTab === "all") {
       setProjects(data);
     }
-
-    if (selectTab === "CSS") {
-      const filteredData = data.filter((item) =>
-        item.skills.includes("CSS")
-      );
-      setProjects(filteredData);
-    }
-
-    if (selectTab === "JavaScript/ES6") {
-      const filteredData = data.filter((item) =>
-        item.skills.includes("JavaScript/ES6")
-      );
-      setProjects(filteredData);
-    }
-
-    if (selectTab === "React") {
-      const filteredData = data.filter((item) => item.skills.includes("React"));
-      setProjects(filteredData);
-    }
-
-    if (selectTab === "Styled components") {
-      const filteredData = data.filter((item) => item.skills.includes("Styled components"));
-      setProjects(filteredData);
-    }
-
-    // if (selectTab === "TypeScript") {
-    //   const filteredData = data.filter((item) =>
-    //     item.skills.includes("TypeScript")
-    //   );
-    //   setProjects(filteredData);
-    // }
+    for (const technology of technologies) {
+      if (selectTab === technology) {
+          const filteredData = data.filter((item) =>
+            item.skills.includes(technology)
+          );
+          setProjects(filteredData);
+        }
+    }   
   }, [selectTab]);
 
 

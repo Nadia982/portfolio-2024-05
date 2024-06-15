@@ -15,7 +15,7 @@
 "title": "Spelling Game",
 "imgUrl": "projects/portfolioImg2.jpg",
 "description": "I created this project to fulfil a need for my child to learn and practise certain spellings before his SATS (UK school standard assessment tests for 10-11 year-olds). This app is similar to Wordle, except that it allows words of differing lengths and provides an option for the word and its definition to be read out loud using the SpeechSynthesis API.",
-"skills": ["JavaScript/ES6", "APIs"],
+"skills": ["JavaScript/ES6", "APIs", "Educational websites"],
 "siteUrl": "https://nadia982.github.io/spelling-game-letters-in-order/",
 "gitHub": "https://github.com/Nadia982/spelling-game-letters-in-order",
 "alt": "A screenshot of project 2: a spelling game where the word 'feasible' is spelled out correctly."
@@ -25,7 +25,7 @@
 "title": "Travel website",
 "imgUrl": "projects/portfolioImg3.jpg",
 "description": "A concept landing page for a fictional luxury travel company created using React and styled components.",
-"skills": ["React", "Styled components", "Business websites"],
+"skills": ["React", "Styled components", "Small business websites"],
 "siteUrl": "https://nadia982.github.io/dream-travel/",
 "gitHub": "https://github.com/Nadia982/dream-travel",
 "alt": "A screenshot of project 3: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
