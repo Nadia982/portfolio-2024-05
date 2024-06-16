@@ -3,7 +3,7 @@ import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imgUrl, description, skills, siteUrl, gitHub, alt },
+  project: { title, imgUrl, description, description2, skills, siteUrl, gitHub, alt },
 }) => {
   return (
         <div className={styles.container}>
@@ -23,7 +23,7 @@ export const ProjectCard = ({
         )}
       </ul>
       <p className={styles.description}>{description}</p>
-      
+      <p className={styles.description}>{description2 && description2}</p>
 
       </div>
     

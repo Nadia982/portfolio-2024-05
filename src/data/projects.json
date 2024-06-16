@@ -29,5 +29,16 @@
 "siteUrl": "https://nadia982.github.io/dream-travel/",
 "gitHub": "https://github.com/Nadia982/dream-travel",
 "alt": "A screenshot of project 3: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
-}
+},
+{
+    "id":"04",
+    "title": "Word Scramble",
+    "imgUrl": "projects/portfolioImg4.jpg",
+    "description": "I created this project to fulfil a need for my child to learn and practise spellings before a test. The app presents a scrambled version of the word and requires the user to type the unscrambled word. The user can choose for the word and its definition to be read out loud using the SpeechSynthesis API, and volume can be controlled using an accessible onscreen volume slider. ",
+    "description2": "The app is fully navigable using the keyboard. Ideal for reluctant spellers as instant feedback is given if the word inputted is too long, and the correct answer is provided after 3 incorrect guesses.",
+    "skills": ["JavaScript", "APIs", "Educational websites"],
+    "siteUrl": "https://nadia982.github.io/word-scramble/",
+    "gitHub": "https://github.com/Nadia982/word-scramble",
+    "alt": "A screenshot of project 4: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
+    }
 ]
