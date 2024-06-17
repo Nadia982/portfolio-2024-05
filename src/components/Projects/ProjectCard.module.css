@@ -10,6 +10,7 @@
     padding: 0 12px 12px;
     max-width: 300px;
     flex-grow: 1;
+    padding-bottom: 24px;
     }
 
 .image {
@@ -33,7 +34,7 @@
 }
 
 .description {
-    margin-top: 6px;
+    margin-top: 18px;
     font-size: var(--font-s);
     font-weight: 400;
 }
