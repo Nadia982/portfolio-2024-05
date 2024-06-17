@@ -3,7 +3,8 @@
 "id":"01",
 "title": "Grammar Quiz",
 "imgUrl": "projects/portfolioImg1.jpg",
-"description": "I created this project to fulfil a need for my child to practise answering grammar-related questions before his SATS (UK school standard assessment tests for 10-11 year-olds). I used the questions from paper 1 of the SATs spelling, punctuation and grammar exams from 2017 to 2023, re-purposing non-multiple choice questions into multiple choice questions. Animations that give immediate feedback on responses make this quiz easy and compelling to use.",
+"description": "I created this project to fulfil a need for my child to practise answering grammar-related questions before his SATS (UK school standard assessment tests for 10-11 year-olds).", 
+"description2": "I used the questions from paper 1 of the SATs spelling, punctuation and grammar exams from 2017 to 2023, re-purposing non-multiple choice questions into multiple choice questions. Animations that give immediate feedback on responses make this quiz easy and compelling to use.",
 "skills": ["JavaScript/ES6", "Educational websites"],
 "siteUrl": "https://nadia982.github.io/sats-spag-quiz/",
 "gitHub": "https://github.com/Nadia982/sats-spag-quiz",
@@ -14,7 +15,8 @@
 "id":"02",
 "title": "Spelling Game",
 "imgUrl": "projects/portfolioImg2.jpg",
-"description": "I created this project to fulfil a need for my child to learn and practise certain spellings before his SATS (UK school standard assessment tests for 10-11 year-olds). This app is similar to Wordle, except that it allows words of differing lengths and provides an option for the word and its definition to be read out loud using the SpeechSynthesis API.",
+"description": "I created this project to fulfil a need for my child to learn and practise certain spellings before his SATS (UK school standard assessment tests for 10-11 year-olds).", 
+"description2": "This app is similar to Wordle, except that it allows words of differing lengths and provides an option for the word and its definition to be read out loud using the SpeechSynthesis API.",
 "skills": ["JavaScript/ES6", "APIs", "Educational websites"],
 "siteUrl": "https://nadia982.github.io/spelling-game-letters-in-order/",
 "gitHub": "https://github.com/Nadia982/spelling-game-letters-in-order",
@@ -28,7 +30,7 @@
 "skills": ["React", "Styled components", "Small business websites"],
 "siteUrl": "https://nadia982.github.io/dream-travel/",
 "gitHub": "https://github.com/Nadia982/dream-travel",
-"alt": "A screenshot of project 3: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
+"alt": "A screenshot of project 3: a travel website with a purple and blue colour scheme showing ethereal photos of Singapore, Thailand and Paris."
 },
 {
     "id":"04",
@@ -39,6 +41,6 @@
     "skills": ["JavaScript", "APIs", "Educational websites"],
     "siteUrl": "https://nadia982.github.io/word-scramble/",
     "gitHub": "https://github.com/Nadia982/word-scramble",
-    "alt": "A screenshot of project 4: a multiple choice quiz about English grammar on a dark blue background with four possible answers. At the bottom of the screen there are answer indicators indicating whether previous questions have been answered correctly."
+    "alt": "A screenshot of project 4: a word scramble game on a light blue background."
     }
 ]
