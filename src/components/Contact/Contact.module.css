@@ -63,9 +63,20 @@
  /* border: 1px solid transparent; */
  outline: 2px solid white;  
 }
-.link a:hover{
+.link a img:hover{
     filter: brightness(.9);
     box-shadow: 0 0 7px 0 #fff;
+}
+
+.textLink {
+    line-height: 1.5;
+}
+
+.textLink:hover{
+  filter: brightness(.9);
+  text-decoration: underline; 
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
 }
 
 @media screen and (max-width: 830px) {

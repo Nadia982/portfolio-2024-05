@@ -16,13 +16,13 @@ return (
 <li className={styles.link}> 
 <a href="https://www.linkedin.com/in/natalie-g-b947331a/"><img src={getImageUrl("contact/linkedinIcon.png")}
 alt="LinkedIn icon"/></a>
-<a href="https://www.linkedin.com/in/natalie-g-b947331a/">https://www.linkedin.com/in/natalie-g-b947331a/</a>
+<a className = {styles.textLink} href="https://www.linkedin.com/in/natalie-g-b947331a/">https://www.linkedin.com/in/natalie-g-b947331a/</a>
 </li> 
 
 <li className={styles.link}> 
 <a href="https://github.com/nadia982"><img src={getImageUrl("contact/githubIcon.png")}
 alt="gitHub icon"/></a>
-<a href="https://github.com/nadia982">https://github.com/nadia982</a>
+<a className = {styles.textLink} href="https://github.com/nadia982">https://github.com/nadia982</a>
 </li> 
 </ul>
 </div>
