@@ -11,12 +11,14 @@ function App() {
   
   return (
     <div className={styles.App}>
+      <div className={styles.outerContainer}>
      <Navbar/>
      <Hero/>
      <Projects/>
      <Experience/>
      <About/>
      <Contact/>
+    </div>
     </div>
   )
 }

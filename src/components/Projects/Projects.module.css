@@ -3,8 +3,8 @@
 .container {
     color: var(--color-text);
     margin-top: 56px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .title {
@@ -20,16 +20,24 @@
     text-align: center;
 }
 
-.projects {
+/* .projects {
     margin-top: 24px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* align-items: flex-start; */
     justify-content: center;
     gap: 35px;
     width: 100%;
-}
+} */
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    margin-top: 20px;
+    /* grid-column-gap: 20px; */
+    grid-gap: 40px;
+    justify-items: center;
+    }
 
 .buttonContainer {
     display: flex;
