@@ -6,6 +6,7 @@ import { getImageUrl } from "../../utils";
 export const Contact = () => {
 return ( 
 <footer id="contact" className={styles.container}>
+<div className={styles.innerContainer}>
 <h2 className={styles.title}>Contact</h2>
 <div className={styles.content}>
 <div className={styles.text}>
@@ -25,6 +26,7 @@ alt="gitHub icon"/></a>
 <a className = {styles.textLink} href="https://github.com/nadia982">https://github.com/nadia982</a>
 </li> 
 </ul>
+</div>
 </div>
 </footer>
 );

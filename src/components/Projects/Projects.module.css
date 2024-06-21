@@ -2,9 +2,8 @@
 
 .container {
     color: var(--color-text);
-    margin-top: 56px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 56px auto;
+    width: var(--width);
 }
 
 .title {
@@ -20,23 +19,14 @@
     text-align: center;
 }
 
-/* .projects {
-    margin-top: 24px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 35px;
-    width: 100%;
-} */
-
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-template-columns: repeat(auto-fit, 265px);
     margin-top: 20px;
-    /* grid-column-gap: 20px; */
-    grid-gap: 40px;
+    grid-column-gap: 70px;
+    grid-row-gap: 50px;
     justify-items: center;
+    justify-content: center;
     }
 
 .buttonContainer {

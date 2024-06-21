@@ -17,4 +17,8 @@
     --font-l: 1.8rem;
     --font-m: 1.5rem;
     --font-s: 1.2rem;
+
+    /* Widths */
+    --width: 90%;
+    --width-narrow: 80%;
 }

@@ -5,16 +5,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 25px;
+  margin: 25px auto 0;
   z-index: 1;
-  margin-left: 8%;
-  margin-right: 8%;
+  width: var(--width);
   display: flex;
-/* justify-content: center;
-height: 100vh;
-margin: 0;
-background-color: #0397f5; */
-
 }
 
 .content {

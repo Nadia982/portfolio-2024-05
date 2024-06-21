@@ -2,13 +2,10 @@
 
 .container {
   position: relative;
-  /* background-color: rgba(12, 12, 12, 0.6); */
   border-radius: 16px;
-  padding: 72px;
-  margin-top: 130px;
+  margin: 120px 5%;
   z-index: 1;
-  margin-left: 5%;
-  margin-right: 5%;
+  width: var(--width);
 }
 
 .title {
@@ -21,30 +18,30 @@
   margin-bottom: 2rem;
 }
 
-.content {
-  display: flex;
-  align-items: center;
-}
+
 
 .aboutItems {
   color: var(--color-text);
   display: flex;
   flex-direction: column;
   gap: 50px;
+  margin: 0;
 }
 
 .aboutItem {
   display: flex;
+  gap: 40px;
   align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
   background: #19376d;
   background: linear-gradient(90deg, #19376d 0%, #11264c 100%);
   background-repeat: no-repeat;
   transition: 0.4s;
-  width: 95%;
-  margin: 0 auto;
+  width: var(--width);
+  margin: 0;
+  width: 100%;
+  padding: 24px 12px;
 }
 
 .aboutItem h3 {

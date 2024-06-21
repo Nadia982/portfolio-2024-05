@@ -4,29 +4,34 @@
   color: var(--color-text);
   margin-top: 60px;
   background-color: var(--color-secondary);
-  padding: 50px 10% 20px;
+  padding: 50px 5% 20px;
+}
+
+.innerContainer {
+max-width: 1080px;
+margin: 0 auto;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: var(--width);
   margin: 0 auto;
   padding: 0;
-  gap: 20px;
+  gap: 30px;
 }
 
 .title {
   font-size: var(--font-xl);
   font-weight: 700;
   letter-spacing: 4px;
-  width: 80%;
+  width: var(--width);
   margin: 0 auto 24px;
 }
 
 .text {
   margin-top: 6px;
-  flex: 1 1 35%;
+  flex: 1 0 50%;
   display: flex;
   gap: 12px;
   flex-direction: column;
@@ -35,7 +40,6 @@
 .text p {
   font-size: var(--font-xs);
   font-weight: 400;
-  /* letter-spacing: 1.2px;  */
 }
 
 .links {
@@ -48,8 +52,8 @@
 }
 .link {
   display: flex;
-  align-items: center;
-  gap: 12px;
+  align-items: space-between;
+  gap: 24px;
 }
 
 .link a {

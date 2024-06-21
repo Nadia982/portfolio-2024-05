@@ -5,7 +5,8 @@
     align-items: stretch;
     flex-direction: column;
     border-radius: 10px;
-    background: linear-gradient(90deg, #3c4b83 0%, #344070 100%);
+    background: #19376d;
+    /* background: linear-gradient(90deg, #3c4b83 0%, #344070 100%); */
     box-shadow: 0 16px 14px 0 #04152d;
     padding: 0 12px 12px;
     max-width: 300px;
