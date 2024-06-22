@@ -1,5 +1,5 @@
 import React from "react";
-
+import ScrollToTop from "react-scroll-to-top";
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
@@ -28,6 +28,7 @@ alt="gitHub icon"/></a>
 </ul>
 </div>
 </div>
+<ScrollToTop smooth className={styles.scrollToTop}/>
 </footer>
 );
 };
