@@ -88,6 +88,12 @@ margin: 0 auto;
   color: #aaa;
 }
 
+.scrollToTop:focus {
+  opacity: 0.5;
+  outline: 3px solid #fff;
+  border: 2px solid var(--color-bg);
+}
+
 .scrollToTop:hover{
   filter: brightness(2);
   cursor: pointer;
