@@ -9,7 +9,7 @@ export const About = () => {
   
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
+            <img className={styles.aboutImage} src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemText}>
               
               <p className={styles.aboutItemPara}>

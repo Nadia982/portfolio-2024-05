@@ -41,7 +41,7 @@
   width: var(--width);
   margin: 0;
   width: 100%;
-  padding: 24px 12px;
+  padding: 24px 2rem;
 }
 
 .aboutItem h3 {
@@ -60,14 +60,13 @@
 .aboutItemPara {
   margin-top: 24px;
   font-size: var(--font-s);
-  padding-right: 3rem;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    /* padding-left: 0;
+    padding-right: 0; */
   }
 
   .content {
@@ -82,7 +81,7 @@
     margin-top: 30px;
   }
   .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    /* padding-left: 0; */
+    /* padding-right: 0; */
   }
 }
