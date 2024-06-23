@@ -12,7 +12,39 @@ const Navbar = () => {
           Contact Me
         </a>
         <div className={styles.menu}>
-          
+        <button type="button" className={styles.topnav__close}>
+          <img tabIndex="0"
+            className={styles.menuBtn}
+            src={
+              menuOpen
+                ? getImageUrl("nav/closeIcon.png")
+                : getImageUrl("nav/menuIcon.png")
+            }
+            alt="menu icon"
+            onClick={() => setMenuOpen(!menuOpen)}
+            // onKeyDown={() => setMenuOpen(!menuOpen)}
+            onKeyDown={(e) => ( 
+              e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
+              e.key === "Escape" ? setMenuOpen(false) : null
+            )}/>
+        </button>
+        {/* <img
+          tabIndex="0"
+            className={styles.menuBtn}
+            src={
+              menuOpen
+                ? getImageUrl("nav/closeIcon.png")
+                : getImageUrl("nav/menuIcon.png")
+            }
+            alt="menu icon"
+            onClick={() => setMenuOpen(!menuOpen)}
+            // onKeyDown={() => setMenuOpen(!menuOpen)}
+            onKeyDown={(e) => ( 
+              e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
+              e.key === "Escape" ? setMenuOpen(false) : null
+            )}
+            
+          /> */}
           <ul
             className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
             onClick={() => setMenuOpen(false)}
@@ -32,23 +64,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <img
-          tabIndex="0"
-            className={styles.menuBtn}
-            src={
-              menuOpen
-                ? getImageUrl("nav/closeIcon.png")
-                : getImageUrl("nav/menuIcon.png")
-            }
-            alt="menu icon"
-            onClick={() => setMenuOpen(!menuOpen)}
-            // onKeyDown={() => setMenuOpen(!menuOpen)}
-            onKeyDown={(e) => ( 
-              e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
-              e.key === "Escape" ? setMenuOpen(false) : null
-            )}
-            
-          />
+        
       </nav>
     </>
   );

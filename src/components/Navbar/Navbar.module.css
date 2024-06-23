@@ -29,20 +29,25 @@
 .contactBtn:focus{
   border: 2px solid var(--color-bg);
   box-shadow: none;
-outline: 2px solid var(--color-emphasis);
+  outline: 2px solid var(--color-emphasis);
 }
 
 .contactBtn:hover{
-filter: brightness(1.2);
+  filter: brightness(1.2);
 }
 
 .menuBtn {
   display: none;
 }
 
+.topnav__close {
+  display: none;
+}
+
 .menu {
   display: flex;
 }
+
 .menuItems {
   display: flex;
   gap: 6px;
@@ -60,6 +65,10 @@ filter: brightness(1.2);
   background: var(--color-primary);
 }
 
+/* ************************************************************************************ */
+/* **************************** Screens under 830px **************************** */
+/* ************************************************************************************ */
+
 @media screen and (max-width: 830px) {
   .navbar {
     flex-direction: row;
@@ -69,33 +78,44 @@ filter: brightness(1.2);
   }
 
   .menu {
-    /* position: absolute; */
-    /* right: 0 ; */
+    inset: 0;
+    position: fixed;
+    background: var(--color-secondary);
+   
     margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
     width: 100%;
+    /* padding-top: 4rem; */
   }
 
   .menuBtn {
     display: block;
     cursor: pointer;
-    /* margin-bottom: 48px; */
+    width: 28px;
+    height: 28px;
+    z-index: 100;
+  }
+  
+  .topnav__close {
+    display: block;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+    z-index: 100;
   }
 
   .menuItems {
-    display: none;
-    flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    background: var(--color-secondary);
-    width: 100%;
+    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); */
+    flex-direction: column;
     gap: 0;
-    /* background: linear-gradient(0deg, rgba(25,55,109,.2) 0%, rgba(25,55,109,1) 100%); */
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
-    margin-top: 24px;
+    
+    text-align: center;
+    width: 100%;
   }
   .menuItems li {
     width: 100%;
