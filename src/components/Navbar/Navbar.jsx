@@ -12,7 +12,7 @@ const Navbar = () => {
           Contact Me
         </a>
         <div className={styles.menu}>
-        <button type="button" className={styles.topnav__close}>
+        <button tabIndex="-1" type="button" className={styles.topnav__close}>
           <img tabIndex="0"
             className={styles.menuBtn}
             src={
@@ -22,7 +22,6 @@ const Navbar = () => {
             }
             alt="menu icon"
             onClick={() => setMenuOpen(!menuOpen)}
-            // onKeyDown={() => setMenuOpen(!menuOpen)}
             onKeyDown={(e) => ( 
               e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
               e.key === "Escape" ? setMenuOpen(false) : null

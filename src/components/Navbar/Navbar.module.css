@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 1.5rem;
   z-index: 2;
   margin: 0 5%;
   width: var(--width);
@@ -20,7 +20,7 @@
   color: var(--color-bg);
   font-size: var(--font-l);
   font-weight: 600;
-  padding: 8px 16px;
+  padding: .5rem 1rem;
   text-decoration: none;
   text-align: center;
   min-width: 200px;
@@ -36,10 +36,6 @@
   filter: brightness(1.2);
 }
 
-.menuBtn {
-  display: none;
-}
-
 .topnav__close {
   display: none;
 }
@@ -48,6 +44,7 @@
   display: flex;
 }
 
+/* ul element for navigation menu */
 .menuItems {
   display: flex;
   gap: 6px;
@@ -62,7 +59,7 @@
 }
 
 .menuItems a:hover {
-  background: var(--color-primary);
+  background: var(--color-secondary);
 }
 
 /* ************************************************************************************ */
@@ -73,7 +70,7 @@
   .navbar {
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     padding-bottom: 12px;
   }
 
@@ -81,42 +78,40 @@
     inset: 0;
     position: fixed;
     background: var(--color-secondary);
-   
     margin-right: 10%;
     flex-direction: column;
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
     width: 100%;
-    /* padding-top: 4rem; */
   }
 
-  .menuBtn {
-    display: block;
-    cursor: pointer;
-    width: 28px;
-    height: 28px;
-    z-index: 100;
-  }
-  
+  /* Button element for menu toggle */
   .topnav__close {
+    background: none;
+    opacity: 0.8;
+    border: none;
+    height: 3rem;
+    margin: 1.5rem 1rem;
+    width: 3rem;
+    padding: 0;
     display: block;
     cursor: pointer;
-    width: 28px;
-    height: 28px;
     z-index: 100;
   }
 
-  .menuItems {
-    align-items: center;
-    border-radius: 10px;
-    /* box-shadow: 0 0 4px rgba(0, 0, 0, 0.25); */
-    flex-direction: column;
-    gap: 0;
-    
-    text-align: center;
-    width: 100%;
+  .topnav__close:hover{
+    opacity: 1.5; 
   }
+/* Img element on menu toggle button  */
+  .menuBtn {
+    padding: 0;
+    display: block;
+    cursor: pointer;
+    z-index: 100;
+  }
+
+  /* menuItems is ul element for navigation menu */
   .menuItems li {
     width: 100%;
   }
@@ -133,12 +128,25 @@
   }
 
   .menuOpen {
-    position: absolute;
-    right: 0;
-    top: 100px;
-    display: flex;
-    z-index: 1;
-    width: 50vw;
-    text-align: right;
+    align-items: center;
+    background: var(--color-bg);
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+   position: fixed;
+   padding-top: 6rem;
+    width: 100%;    
+    min-height: 100vh;
+    height: 100vh;
+  }
+
+/* Hamburger menu closed */
+  .menuItems:not(.menuOpen) {
+    display: none;
+  }
+
+  .menu:not(.menuOpen) {
+    height: 0;
   }
 }
