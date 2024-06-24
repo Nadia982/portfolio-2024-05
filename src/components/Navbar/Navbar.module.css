@@ -2,17 +2,18 @@
 
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 1.5rem;
+  margin-top: 1.5rem;
   z-index: 2;
   margin: 0 5%;
   width: var(--width);
 }
 
 .contactBtn {
+  /* position: fixed; */
   background-color: var(--color-emphasis);
   border: 2px solid var(--color-emphasis);
   border-radius: 50px;
@@ -71,9 +72,13 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-bottom: 12px;
+    padding-bottom: 12px;  
   }
 
+.contactBtn {
+  padding: .2rem .5rem;
+  opacity: 0.8;
+}
   .menu {
     inset: 0;
     position: fixed;
