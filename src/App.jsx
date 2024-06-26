@@ -11,8 +11,9 @@ function App() {
   
   return (
     <div className={styles.App}>
-      <div className={styles.outerContainer}>
      <Navbar/>
+      <div className={styles.outerContainer}>
+     
      <Hero/>
      <Projects/>
      <Experience/>

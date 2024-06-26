@@ -9,6 +9,7 @@
   z-index: 1;
   width: var(--width);
   display: flex;
+
 }
 
 .content {
@@ -69,18 +70,6 @@ height: 8px;
 .emphasisLink:hover {
   color: #d891ef;
 }
-
-/* .contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
-  border-radius: 100px;
-  font-size: var(--font-l);
-  font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
-  margin-bottom: 80px;
-} */
 
 .topBlur::before{
   width: 50vw;
