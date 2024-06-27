@@ -76,18 +76,20 @@ height: 8px;
   height: 50vw;
   min-width: 350px;
   min-width: 350px;
-  top: -128px;
+  top: 100px;
   left: -10vw;
   border-radius: 764px;
   background: rgba(25, 55, 109, 0.7);
+  
   filter: blur(100px);
   z-index: -1;
   content: "";
   position: absolute;
-  width: 100%; 
-  height: 100%;
-
+  width: 80%; 
+  height: 80%;
 }
+
+/* background: rgba(197, 29, 141, 0.7); */
 
 .bottomBlur::before {
   position: absolute;
