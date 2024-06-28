@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: space-between;
   margin: 20px auto 0;
-  z-index: 1;
   width: var(--width);
   display: flex;
 
@@ -17,7 +16,6 @@
   flex-direction: column;
   align-items: flex-start;
   color: var(--color-text);
-  z-index: 1;
 }
 
 .title {
