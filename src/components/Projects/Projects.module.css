@@ -1,67 +1,78 @@
 @import "../../vars.css";
 
 .container {
-    color: var(--color-text);
-    margin: 56px auto;
-    width: var(--width);
+  color: var(--color-text);
+  margin: 56px auto;
+  width: var(--width);
 }
 
 .title {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: var(--font-xl);
-    letter-spacing: 1.75px;
-    padding: 1px;
-    margin-bottom: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--font-xl);
+  letter-spacing: 1.75px;
+  padding: 1px;
+  margin-bottom: 12px;
 }
 
-.filterBySkill{
-    text-align: center;
+.filterBySkill {
+  text-align: center;
 }
 
 .projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 265px);
-    margin-top: 20px;
-    grid-column-gap: 70px;
-    grid-row-gap: 50px;
-    justify-items: center;
-    justify-content: center;
-    }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 265px);
+  margin-top: 20px;
+  grid-column-gap: 70px;
+  grid-row-gap: 50px;
+  justify-items: center;
+  justify-content: center;
+}
 
 .buttonContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 12px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 12px;
+  flex-wrap: wrap;
 }
 
-.filterButton{
-    background-color: #d9d9ff;
-    border: none;
-    font-size: var(--font-xs);
-padding: 6px 18px;
-border-radius: 10px;
-cursor: pointer;
-box-shadow: 0 0 6px 0 #d9d9ff;
-border: 2px solid transparent;
+.filterButton {
+  background-color: #d9d9ff;
+  border: none;
+  font-size: var(--font-xs);
+  padding: 6px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 #d9d9ff;
+  border: 2px solid transparent;
 }
 
-.filterButton:focus{
-    border: 2px solid var(--color-bg);
-    box-shadow: none;
+.filterButton:focus {
+  border: 2px solid var(--color-bg);
+  box-shadow: none;
   outline: 2px solid var(--color-text);
 }
 
-.filterButton:hover{
-    background-color: var(--color-text);
-    filter: brightness(1.4);
-    box-shadow: 0 0 12px 0 #fff;
+.filterButton:hover {
+  background-color: var(--color-text);
+  filter: brightness(1.4);
+  box-shadow: 0 0 12px 0 #fff;
 }
 
 .selected {
-    /* background-color: cyan; */
-    background-color: var(--color-emphasis);
+  background-color: var(--color-emphasis);
 }
+.selected:focus {
+    /* border: 2px solid var(--color-bg);
+    box-shadow: none; */
+    outline: 2px solid var(--color-emphasis);
+  }
+  
+  .selected:hover {
+    background-color: var(--color-emphasis);
+    filter: brightness(1.4);
+    box-shadow: 0 0 12px 0 var(--color-emphasis);
+  }
+

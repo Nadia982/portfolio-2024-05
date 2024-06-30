@@ -11,9 +11,9 @@ export const Projects = () => {
     "JavaScript/ES6",
     "React",
     "APIs",
-    "Styled components", 
+    "Styled components",
     "Small business websites",
-    "Educational websites"
+    "Educational websites",
   ];
 
   useEffect(() => {
@@ -22,32 +22,44 @@ export const Projects = () => {
     }
     for (const technology of technologies) {
       if (selectTab === technology) {
-          const filteredData = data.filter((item) =>
-            item.skills.includes(technology)
-          );
-          setProjects(filteredData);
-        }
-    }   
+        const filteredData = data.filter((item) =>
+          item.skills.includes(technology)
+        );
+        setProjects(filteredData);
+      }
+    }
   }, [selectTab]);
-
-
 
   return (
     <section id="projects" className={styles.container}>
       <h2 className={styles.title}>Projects</h2>
-    
-<div className={styles.buttonContainer}>
-<p className={styles.filterBySkill}>Filter projects<br/> by skill/type:</p>
-      {/* <button className={`${styles.filterButton} ${selectTab && styles.selected}`} onClick={() => setSelectTab("all")}>All</button> */}
-      <button className={`${styles.filterButton}`} onClick={() => setSelectTab("all")}>All</button>
 
-      {technologies.map((technology, id) => (
-      <button className={styles.filterButton} key={id} onClick={() => setSelectTab(technology)}>
-         {technology}
+      <div className={styles.buttonContainer}>
+        <p className={styles.filterBySkill}>
+          Filter projects
+          <br /> by skill/type:
+        </p>
+        {/* <button className={`${styles.filterButton} ${selectTab && styles.selected}`} onClick={() => setSelectTab("all")}>All</button> */}
+        <button
+          className={`${styles.filterButton}`}
+          onClick={() => setSelectTab("all")}
+        >
+          All
         </button>
-      ))}
-</div>
-      
+
+        {technologies.map((technology, id) => (
+          <button
+                        key={id}
+            onClick={() => setSelectTab(technology)}
+            className={selectTab === technology ? `${styles.filterButton} ${styles.selected}` : `${styles.filterButton}`}
+          >
+
+            
+            {technology}
+          </button>
+        ))}
+      </div>
+
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return <ProjectCard key={id} project={project} />;
