@@ -134,6 +134,7 @@
     display: block;
     cursor: pointer;
     z-index: 100;
+    /* fill: #fff; */
   }
 
   /* menuItems is ul element for navigation menu */

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
+import OpenMenuIcon from "./OpenMenuIcon";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -13,20 +14,27 @@ const Navbar = () => {
           Contact Me
         </a>
         <div className={styles.menu}>
-        <button tabIndex="-1" type="button" className={styles.topnav__close}>
-          <img tabIndex="0"
+        <button tabIndex="0" type="button" className={styles.topnav__close} onClick={() => setMenuOpen(!menuOpen)}
+            onKeyDown={(e) => ( 
+              e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
+              e.key === "Escape" ? setMenuOpen(false) : null)}>
+                {menuOpen
+                ? <img className={styles.menuBtn} src={getImageUrl("nav/closeIcon.png")}/>
+                : <OpenMenuIcon />}
+        {/* <button tabIndex="0" type="button" className={styles.topnav__close}> */}
+          {/* <img tabIndex="0"
             className={styles.menuBtn}
             src={
               menuOpen
                 ? getImageUrl("nav/closeIcon.png")
-                : getImageUrl("nav/menuIcon.png")
+                : (getImageUrl("nav/menuIcon.png"))
             }
             alt="menu icon"
             onClick={() => setMenuOpen(!menuOpen)}
             onKeyDown={(e) => ( 
               e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
               e.key === "Escape" ? setMenuOpen(false) : null
-            )}/>
+            )}/> */}
         </button>
         {/* <img
           tabIndex="0"
