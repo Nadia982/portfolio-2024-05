@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 import OpenMenuIcon from "./OpenMenuIcon";
+import CloseMenuIcon from "./CloseMenuIcon";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,7 +21,7 @@ const Navbar = () => {
               e.key === "Enter" ? setMenuOpen(!menuOpen) : null,
               e.key === "Escape" ? setMenuOpen(false) : null)}>
                 {menuOpen
-                ? <img className={styles.menuBtn} src={getImageUrl("nav/closeIcon.png")}/>
+                ? <CloseMenuIcon />
                 : <OpenMenuIcon />}
         {/* <button tabIndex="0" type="button" className={styles.topnav__close}> */}
           {/* <img tabIndex="0"
