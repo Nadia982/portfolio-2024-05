@@ -161,10 +161,14 @@
     gap: 0;
     text-align: center;
    position: fixed;
-   padding-top: 6rem;
+   padding-top: 8rem;
     width: 100%;    
     min-height: 100vh;
     height: 100vh;
+  }
+
+  .menuOpen a {
+    font-size: 2.5rem;
   }
 
 /* Hamburger menu closed */
